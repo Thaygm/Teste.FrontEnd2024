@@ -1,0 +1,40 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #e6a4b4;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #f5eee6;
+    color: #e6a4b4;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.nav-favoritos .nav-link.active:hover {
+    color: #f5eee6;
+}
+
+.navbar-toggler {
+    background-color: #fff8e3;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-nos {
+    background-color: #fff8e3;
+}
+
+.text-colored {
+    color: #e6a4b4;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+    height: 280px;
+    }
+}
