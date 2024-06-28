@@ -86,8 +86,9 @@ function updateFavoriteVideos() {
         videoElement.classList.add('video');
 
         videoElement.innerHTML = `
-            <iframe width="300" height="200" src="https://www.youtube.com/embed/${videoId}"
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/${videoId}" 
                 frameborder="0" allowfullscreen></iframe>
+            <i class="bi bi-star-fill favorite-icon" onclick="toggleFavorite(this, '${videoId}')"></i>
         `;
 
         favoriteVideosContainer.appendChild(videoElement);
@@ -117,9 +118,10 @@ function displayFavoriteVideos() {
         videoElement.classList.add('video');
 
         videoElement.innerHTML = `
-            <iframe width="300" height="200" src="https://www.youtube.com/embed/${videoId}" 
-                frameborder="0" allowfullscreen></iframe>
-        `;
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/${videoId}" 
+            frameborder="0" allowfullscreen></iframe>
+        <i class="bi bi-star-fill favorite-icon" onclick="toggleFavorite(this, '${videoId}')"></i>
+    `;
 
         favoriteVideoContainer.appendChild(videoElement);
     });
