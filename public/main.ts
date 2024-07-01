@@ -70,6 +70,7 @@ function updateFavoriteCount(): void {
 //para atualizar a lista de favoritos na página favoritos
 function updateFavoriteVideos(): void {
     const favoriteVideosContainer = document.getElementById('favorite-videos') as HTMLElement;
+    if (!favoriteVideosContainer ) return;
     favoriteVideosContainer.innerHTML = '';
 
     favoriteVideos.forEach(videoId => {
@@ -125,4 +126,3 @@ function removeAllFavorites(): void {
     displayFavoriteVideos();
 }
 
-initializeFavorites();
