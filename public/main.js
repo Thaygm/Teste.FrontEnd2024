@@ -1,6 +1,6 @@
 var favoriteVideos = [];
 function searchVideos() {
-    var apiKey = 'sua_chave_api';
+    var apiKey = 'AIzaSyCFAX8eOotr4xTHEO9wZ2bLGT1hHsWftTA';
     var searchTerm = document.getElementById('search').value;
     var maxResults = 12;
     var apiUrl = "https://www.googleapis.com/youtube/v3/search?key=".concat(apiKey, "&part=snippet&type=video&q=").concat(searchTerm, "&maxResults=").concat(maxResults);
