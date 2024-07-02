@@ -10,8 +10,9 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 2. Abra o Terminal do projeto e digite     **npm i**      para instalação completa das dependências
 3. Para Abrir o projeto e compilar os arquivos typescript, execute no terminal     **npm start**
 5. Para executar o Docker, execute **docker build -t icasei .** e depois **docker run -it -p 3000:3000 icasei**
-6. Esta é uma aplicação que utiliza API do youtube e a chave deve ser gerada através deste link [Aqui](https://developers.google.com/youtube/v3/getting-started?hl=pt-br) 
-7. Para abrir os testes, execute    **npm run cypress open**
+6. Esta é uma aplicação que utiliza API do youtube e a chave deve ser gerada através deste link [Aqui](https://developers.google.com/youtube/v3/getting-started?hl=pt-br) e
+   substituindo **sua_chave_api** no main.ts/main.js
+8. Para abrir os testes, execute    **npm run cypress open**
 
 
 ## 🛠️ Construído com
