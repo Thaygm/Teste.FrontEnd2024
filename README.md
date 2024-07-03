@@ -17,8 +17,6 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
-
 * [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Código Base
 * [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Padronização de estilo
 * [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) - Estilização
